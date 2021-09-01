@@ -24,6 +24,7 @@ class ReusableCard extends StatelessWidget {
             if (value == null || value.isEmpty) {
               return validationText;
             }
+            // value!.length > 0 ? null : validationText;
           },
           controller: controller,
           textAlign: TextAlign.start,
